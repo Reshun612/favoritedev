@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite LDS Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>LDS Devotionals</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="content-box">
+        <h2>Top LDS Devotionals</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Theme</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Come, Follow Me: Daily Scripture Study</td>
+              <td class="author-cell">
+                <img src="images/lds_icon1.jpg" alt="LDS Church" class="author-img">
+                Church of Jesus Christ of Latter-day Saints
+              </td>
+              <td>Scripture Study</td>
+              <td>Daily guidance for studying the scriptures with insight from Church leaders.</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>General Conference Talk: Faith in Christ</td>
+              <td class="author-cell">
+                <img src="images/dieter.jpg" alt="Dieter F. Uchtdorf" class="author-img">
+                Dieter F. Uchtdorf
+              </td>
+              <td>Faith & Encouragement</td>
+              <td>Encouraging messages from General Conference about faith, hope, and love.</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Morning Devotional: Trust in the Lord</td>
+              <td class="author-cell">
+                <img src="images/jeffrey.jpg" alt="Jeffrey R. Holland" class="author-img">
+                Jeffrey R. Holland
+              </td>
+              <td>Faith & Hope</td>
+              <td>Daily inspirational devotionals encouraging trust in God through trials.</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Evening Reflection: Christlike Attributes</td>
+              <td class="author-cell">
+                <img src="" alt="matthewcowley.jpg" class="author-img">
+                Matthew Cowley
+              </td>
+              <td>Personal Growth</td>
+              <td>Reflections on developing Christlike attributes and living righteously.</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>New Era Devotional</td>
+              <td class="author-cell">
+                <img src="ldsyouth.jpg" alt="LDS Youth" class="author-img">
+                LDS Youth Contributors
+              </td>
+              <td>Youth Inspiration</td>
+              <td>Devotional content targeted for youth with lessons on faith, service, and character.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>Submit Your Favorite LDS Devotional</h2>
+        <form action="#" method="post">
+          <label for="title">Title:</label>
+          <input type="text" id="title" name="title" placeholder="Enter devotional title" required>
+
+          <label for="author">Author:</label>
+          <input type="text" id="author" name="author" placeholder="Enter author's name" required>
+
+          <label for="theme">Theme:</label>
+          <input type="text" id="theme" name="theme" placeholder="e.g., Faith, Service" required>
+
+          <label for="desc">Description:</label>
+          <textarea id="desc" name="desc" rows="3" placeholder="Short description about the devotional"></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 My Favorite LDS Devotionals | Designed with ❤️</p>
+    </footer>
+  </div>
+</body>
+</html>
